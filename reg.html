@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="reg.css">
+       <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxs-graduation'></i>
+      <span class="logo_name">Creative University</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+                 
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="">Dashboard</a></li>
+          
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Course</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Course</a></li>
+          <li><a href="cse.html">CSE</a></li>
+          <li><a href="eee.html">EEE</a></li>
+          <li><a href="se.html">SWE</a></li>         
+          <li><a href="civil.html">Civil</a></li>
+          <li><a href="te.html">TE</a></li>
+          <li><a href="nfe.html">NFE</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="reg.html">
+          <i class='bx bxs-pen'></i>
+          <span class="link_name">Registration</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="">Registration</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="account.html">
+          <i class='bx bxs-user'></i>
+          <span class="link_name">Account</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="account.html">Account</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+     <img src="images/pic-1.jpeg" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Toufique Elahi Tonmoy</div>
+        <div class="job">Student Id : 201-15-13697</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Course <span>Registration</span></span>
+      <div class="dark">
+        <img src="images/moon.png" id="icon">
+      </div>
+   
+    </div>
+
+<section>
+    <div class="reg">
+      <div class="title">Apply for new course</div>
+      <div class="content">
+        <form action="connect.php" method="post">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">First Name</span>
+              <input type="text" placeholder="Enter your name" name="firstname" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Last Name</span>
+              <input type="text" placeholder="Enter your lastname" name="lastname" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" placeholder="Enter your email" name="email" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Student ID</span>
+              <input type="text" placeholder="Enter your number" name="stid" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Batch Number</span>
+              <input type="text" placeholder="Enter your batch number" name="bach_num" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Section</span>
+              <input type="text" placeholder="Enter your section" name="sec" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Course Code</span>
+              <input type="text" placeholder="Enter your course code" name="coco" required>
+            </div>
+
+
+            <div class="input-box">
+              <span class="details">Course Title</span>
+              <input type="text" placeholder="Enter your course title" name="cotit" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input type="text" placeholder="Enter your password" name="password" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input type="text" placeholder="Confirm your password" name="conpass" required>
+            </div>
+          </div>
+
+
+          <div class="Semester-details">
+            <input type="radio" name="Semester" id="dot-1" value="Spring 2022">
+            <input type="radio" name="Semester" id="dot-2" value="Fall 2022">
+            <input type="radio" name="Semester" id="dot-3" value="Summer 2022">
+            <span class="Semester-title">Semester</span>
+            <div class="category">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="Semester">Spring 2022</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="Semester">Fall 2022</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="Semester">Summer 2022</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="button">
+            <input type="submit" value="Register">
+          </div>
+        </form>
+      </div>
+    </div>
+
+       <footer class="footer">
+        <div class="box">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Creative University</h4>
+              <ul>
+                <li><a href="#">about </a></li>
+                <li><a href="#">academic</a></li>
+                <li><a href="#">resources</a></li>
+                <li><a href="#">admission</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">offices</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Research</a></li>
+                
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Academics</h4>
+              <ul>
+                <li><a href="#">Academic Calender</a></li>
+                <li><a href="#">Academic Regulations</a></li>
+                <li><a href="#">Collaborating Institutes</a></li>
+                <li><a href="#">Innovations</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxs-envelope'></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+                <a href="#"><i class='bx bx-mobile' ></i></a>
+                <a href="#"><i class='bx bxs-phone' ></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+    </section>
+  <script src="script.js"></script>
+</body>
+</html>
